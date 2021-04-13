@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="184.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="calculosfx.FXMLDocumentController">
+    <children>
+        <Button layoutX="50.0" layoutY="76.0" onAction="#Soma" text="+" />
+      <TextField fx:id="txtNumero1" layoutX="47.0" layoutY="26.0" prefHeight="25.0" prefWidth="31.0" />
+      <TextField fx:id="txtNumero2" layoutX="100.0" layoutY="26.0" prefHeight="25.0" prefWidth="31.0" />
+      <TextField editable="false" layoutX="63.0" layoutY="161.0" prefHeight="25.0" prefWidth="50.0" />
+      <Button layoutX="50.0" layoutY="113.0" onAction="#Diminui" prefHeight="25.0" prefWidth="25.0" text="-" />
+      <Button layoutX="103.0" layoutY="76.0" onAction="#Multiplica" prefHeight="25.0" prefWidth="25.0" text="x" />
+      <Button layoutX="103.0" layoutY="113.0" onAction="#Divide" prefHeight="25.0" prefWidth="25.0" text="/" />
+      <Label fx:id="lblResultado" layoutX="74.0" layoutY="165.0" />
+    </children>
+</AnchorPane>
